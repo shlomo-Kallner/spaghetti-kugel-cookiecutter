@@ -8,7 +8,8 @@ Before Your First Release
 
     .. code-block:: bash
 
-        python setup.py register
+        # TODO: update to use new non-setup.py method...
+        # python setup.py register
 
 #. Visit PyPI to make sure it registered.
 
@@ -34,7 +35,10 @@ For Every Release
 
     .. code-block:: bash
 
-        python setup.py develop
+        # either use pip
+        python -m pip install -e .
+        # or use pipenv
+        pipenv install -e .
 
 #. Run the tests:
 

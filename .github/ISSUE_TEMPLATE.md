@@ -1,4 +1,4 @@
-* Date you used Cookiecutter PyPackage:
+* Date you used Spaghetti_Kugel_Cookiecutter:
 * Cookiecutter version used, if any:
 * Python version, if any:
 * Operating System:

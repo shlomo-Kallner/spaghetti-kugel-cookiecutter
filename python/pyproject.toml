@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_package"
+version = "{{ cookiecutter.version }}"
+authors = [
+    {name = "Josiah Carberry", email = "josiah_carberry@brown.edu"},
+]
+description = "Cookiecutter template for a Python package"
+readme = "README.rst"
+requires-python = ">=3.7"
+keywords = ["one", "two"]
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Framework :: Django",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.8"',
+]
